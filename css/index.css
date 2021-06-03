@@ -1,0 +1,57 @@
+.game{
+    width: 800px;
+    height: 600px;
+    border: 1px solid ;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+p{text-align: center;}
+.game .sky{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../image/sky.png);
+}
+.game .land{
+    width: 200%;
+    height: 112px;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    background-image: url(../image/land.png);
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+.game .bird{
+    width: 33px;
+    height: 26px;
+    background-image: url(../image/bird.png);
+    position: absolute;
+    left: 100px;
+    top:0px;
+}
+.game .bird.swing1{
+    background-position: -8px -10px;
+}
+.game .bird.swing2{
+    background-position: -60px -10px;
+}
+.game .bird.swing3{
+    background-position: -113px -10px;
+}
+.pipe{
+    width: 52px;
+    position: absolute;
+    height: 100px;
+    left: 9999px;
+}
+.pipeDown{
+    background-image: url(../image/pipeDown.png);
+    background-position: bottom;
+    top: 0;
+}
+.pipeUp{
+    background-image: url(../image/pipeUp.png);
+    bottom: 112px;
+}
